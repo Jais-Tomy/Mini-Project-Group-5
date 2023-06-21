@@ -1,5 +1,4 @@
-/* Global styles */
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,13 +6,22 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #0b2447;
     color:#fff;
+  }
+
+  .heading {
+    position: absolute;
+    left: 1200px;
+    padding-bottom: 40px;
+    padding-left: 53px;
+    margin-right: -159px;
+
   }
   
   .container {
     position:relative;
-    background-image: url('Rectangle 1.png');
+    background-image: url('rectangle.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,19 +30,42 @@
   }
   
   /* Image styles */
-  .image {
+  .aa {
+    position: absolute;
+    padding-bottom: 100px;
+
+
     flex-basis: 50%;
-    background-image: url('hero.png');
-    background-size: cover;
     background-position: center;
+   
+    height: 817px;
+    width: 648px;
+
+    
+  }
+  .aaa{
+    width: 190px;
+    padding-top: 22px;
+
   }
 
-  .logo {
-    background-image: url('logo.png');
-  }
+  .vattam {
+    position: absolute;
+    right: 120%;
+    top:130%;
   
+    padding-right: 100px;
+
+
+  }
+
+
   /* Form styles */
   .form {
+    width: 45%;
+    left: 55%;
+    top: 20%;
+    position: absolute;
     flex-basis: 50%;
     display: flex;
     justify-content: center;
@@ -42,12 +73,13 @@
   }
   
   .form-inner {
-    width: 80%;
+    width: 100%;
     max-width: 400px;
 
     padding: 40px;
     
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
   }
   
   h1 {
@@ -61,40 +93,43 @@
     font-family: 'poppins', sans-serif;
     font: bolder;
     text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
 
   }
   
-  .form label {
-    display: block;
-    top:30px;
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
   
-  .form input[type="text"],
-  .form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 40px;
-    background-color: #f5f5f5;
-    font-size: 16px;
-  }
   
-  .form input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 40px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
   
-  .form input[type="submit"]:hover {
-    background-color: #0062cc;
-  }
+  
+  
+.button {
+  background-color: whitesmoke; 
+  color: #0b2447;
+  padding: 8px 5px; 
+  border: none;
+  border-radius: 1px; 
+  cursor: pointer; 
+  font-size: 12px; 
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+
+.button:hover {
+  background-color: aliceblue; /* Change the background color on hover */
+}
+
+.www{
+  padding-left: 1324px;
+}
+.form{
+  padding-right: 281px;
+}
+.h1{
+  padding-left: 66px;
+}
+
+
   
